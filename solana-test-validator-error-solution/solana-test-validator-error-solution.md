@@ -4,7 +4,7 @@
 
 ------
 
-![image-20250529095949949](.\solana-test-validator-error-solution.assets\image-20250529095949949.png)
+![image-20250529095949949](./solana-test-validator-error-solution.assets/image-20250529095949949.png)
 
 
 
@@ -229,7 +229,7 @@ test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
 如果您是 Windows 11 系统，在开始菜单搜索 `WSL Settings`，然后将网络模式设置为 Mirrored，这将使 WSL 自动使用 Windows 下的代理软件🪜：
 
-![image-20250529114409115](.\solana-test-validator-error-solution.assets\image-20250529114409115.png)
+![image-20250529114409115](./solana-test-validator-error-solution.assets/image-20250529114409115.png)
 
 这种方法配置好以后需要重启 WSL，在 Windows 的 cmd 中执行 `wsl --shutdown`
 
@@ -249,7 +249,7 @@ https://dashboard.helius.dev/endpoints?projectId=c492cd4a-9bbc-48f7-aec9-11236c7
 
 注册以后，可以找到自己的 Devnet RPC：
 
-![image-20250529123143190](.\solana-test-validator-error-solution.assets\image-20250529123143190.png)
+![image-20250529123143190](./solana-test-validator-error-solution.assets/image-20250529123143190.png)
 
 然后修改 Anchor.toml 的 cluster：
 
